@@ -46,43 +46,63 @@ const sliderVariants = {
 
 const Hero = () => {
   return (
-    <div className='hero'>
-        <div className="wrapper">
-            <motion.div className="textContainer"
-                        variants={textVariants}
-                        initial="initial"
-                        animate="animate">
-                <motion.h2 variants={textVariants}>JONAT J MATHEW</motion.h2>
-                <motion.h1 variants={textVariants}>I'm a <TypeAnimation sequence={[
-                'Web Developer',
+    <div className="hero">
+      <div className="wrapper">
+        <motion.div
+          className="textContainer"
+          variants={textVariants}
+          initial="initial"
+          animate="animate"
+        >
+          <motion.h2 variants={textVariants}>HELLO THERE </motion.h2>
+          <motion.h1 variants={textVariants}>
+            I'm{" "}
+            <TypeAnimation
+              sequence={[
+                "Jonat",
                 2000,
-                'Cyber Security Enthusiast',
+                "a Web Developer",
                 2000,
-                'Python Programmer',
+                "a Cyber Security Enthusiast",
                 2000,
-                'Technical Content Writer',
+                "a Python Programmer",
+                2000,
+                "a Technical Content Writer",
                 2000,
               ]}
               speed={50}
-              className='text-animation'
-              wrapper='span'
+              className="text-animation"
+              wrapper="span"
               repeat={Infinity}
-              /></motion.h1>
-                <motion.div className="buttons" variants={textVariants}>
-                    <motion.button variants={textVariants}>See the Latest Works</motion.button>
-                    <motion.button variants={textVariants}>Contact Me</motion.button>
-                </motion.div>
-                <motion.img animate="scrollButton" src="/scroll.png" alt="" variants={textVariants}/>
-            </motion.div>
-        </div>
-        <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-            Developer Writer CyberSec Programmer
+            />
+          </motion.h1>
+          <motion.div className="buttons" variants={textVariants}>
+            <motion.button variants={textVariants}>
+              Scroll Down to Know More
+            </motion.button>
+            {/* <motion.button variants={textVariants}>Contact Me</motion.button> */}
+          </motion.div>
+          <motion.img
+            animate="scrollButton"
+            src="/scroll.png"
+            alt=""
+            variants={textVariants}
+          />
         </motion.div>
-        <div className="imageContainer">
-            <img src="/hero.png" alt="" />
-        </div>
+      </div>
+      <motion.div
+        className="slidingTextContainer"
+        variants={sliderVariants}
+        initial="initial"
+        animate="animate"
+      >
+        Developer Writer CyberSec Programmer
+      </motion.div>
+      <div className="imageContainer">
+        <img src="/moon2.png" alt="" />
+      </div>
     </div>
-  )
+  );
 }
 
 export default Hero

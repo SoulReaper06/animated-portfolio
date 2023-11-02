@@ -15,10 +15,10 @@ const Navbar = () => {
                 transition={{duration:0.5}}>
                   Jonat J Mathew</motion.span>
             <div className="social">
-                <a href="#"><img src="/facebook.png" alt="" /></a>
-                <a href="#"><img src="/instagram.png" alt="" /></a>
-                <a href="#"><img src="/facebook.png" alt="" /></a>
-                <a href="#"><img src="/facebook.png" alt="" /></a>
+                <a href="https://github.com/SoulReaper06"><img src="/github.png" alt="" /></a>
+                <a href="https://www.linkedin.com/in/jonat-j-mathew06/"><img src="/linkedin.png" alt="" /></a>
+                <a href="https://www.instagram.com/jjm_06_/"><img src="/instagram.png" alt="" /></a>
+                <a href="https://medium.com/@johnatj33"><img src="/medium.png" alt="" /></a>
             </div>
         </div>
     </div>

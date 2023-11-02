@@ -1,0 +1,29 @@
+.ballsContainer{
+    margin-top: 130px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 2.5rem; 
+    justify-content: center; 
+
+}
+
+.balls{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 13rem; 
+    height: 12rem;   
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
